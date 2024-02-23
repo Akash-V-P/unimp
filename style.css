@@ -1,0 +1,63 @@
+*{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+h2{
+    color: rgb(208, 56, 147);
+    font: italic;
+    font-weight: 500;
+    margin-bottom: 2px;
+    font-family: 'YourCursiveFont', cursive;
+}
+h3{
+    color: rgb(238, 203, 224);
+    font: italic;
+    font-weight: 500;
+    padding-left: 30px;
+    font-family: 'YourCursiveFont', cursive;
+    
+}
+
+div{
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+
+    color: white;
+    background-color:  rgb(240, 139, 173);
+    
+
+}
+
+p{
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'YourCursiveFont', cursive;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    *{
+        margin: 10px;
+    }
+    div{
+        margin: 0;
+        height: 100vh;
+    }
+
+    p{
+        font-size: 15px;
+    }
+}
